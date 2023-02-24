@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+  background: linear-gradient(45deg, #43389F, #4ec6ca);
+  width: 100vw;
+  height: 100vh;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 400px;
+  background: linear-gradient(45deg, #43389F, #4ec6ca);
+  box-shadow: 0px 0px 20px 1px #00000050;
+  border-radius: 5px;
+}
+
+.elements {
+  margin-left: 30px;
+}
+
+.numbers-elements {
+  display: flex;
+  align-items: center;
+  width: 200px;
+}
+
+.number-one {
+  width: 20px;
+  height: 90px;
+  border-radius: 2px;
+  background: #fff;
+  box-shadow: 2px 2px 2px 1px #00000050;
+}
+
+.number-one::before {
+  content: '';
+  display: block;
+  width: 20px;
+  height: 40px;
+  background: #ffffffdd;
+  border-radius: 2px;
+  z-index: -1;
+  transform: translate(-16px, 0.5px) rotate(45deg);
+}
+
+.numbers:not(:first-child) {
+  width: 95px;
+  height: 90px;
+  position: relative;
+  border-radius: 50%;
+  box-shadow: 2px 2px 2px 1px #00000033;
+  border: 23px solid rgb(255, 255, 255);
+}
+
+.number-zero-1 {
+  left: -5px;
+  z-index: -1;
+}
+
+.number-zero-2 {
+  left: -15px;
+  z-index: -2;
+}
+
+.text-days {
+  margin-top: 12px;
+  font-size: 4.8rem;
+  line-height: 45px;
+}
+
+.text-css-challenge {
+  margin-top: 5px;
+  font-size: 1.43rem;
+  line-height: 20px;
+}
+
+.text {
+  color: #fff;
+  font-weight: bolder;
+}
