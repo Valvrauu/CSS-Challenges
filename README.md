@@ -12,3 +12,9 @@
 
 <img src="challenge-2/assets/imgs/challenge-two-img.jpg">
 <p>Access through this <a href="challenge-2/index.html" target="_blank">link</a>.</p>
+
+<h2>Challenge #3</h2>
+<p>Not as challenging as the real pyramids in Egypt, but the shadow path is not easy. 🟨⬛</p>
+
+<img src="challenge-3/assets/imgs/challenge-three-img.jpg">
+<p>Access through this <a href="challenge-3/index.html" target="_blank">link</a>.</p>
