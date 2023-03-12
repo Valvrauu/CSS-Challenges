@@ -18,3 +18,9 @@
 
 <img src="challenge-3/assets/imgs/day-three.jpg">
 <p>Access through this <a href="challenge-3/index.html" target="_blank">link</a>.</p>
+
+<h2>Challenge #4</h2>
+<p>The best are always websites that do not need a loading status. If they do, here would be a calming one. 🟧⬛</p>
+
+<img src="challenge-4/assets/imgs/day-four.jpg">
+<p>Access through this <a href="challenge-4/index.html" target="_blank">link</a>.</p>
